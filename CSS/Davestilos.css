@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css2?family=Comme:wght@700&family=Fugaz+One&display=swap)
+;  *{
+
+font-family: 'Fugaz One', cursive;
+
+
+}
+
+body
+{
+    background-image: url('https://i.redd.it/vk81fvcuicp51.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Fixes the background image even when scrolling */
+
+    color: #333;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabezera
+{
+    background-image: linear-gradient(85deg, #9195c4 0, #5d71b6 50%, #66aaf3 100%);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em ;
+    display: flex;
+    align-items: center;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 40px;
+}
+
+
+
+#cabezera #logo
+{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+
+#cabezera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    color: #777;
+    font-size: 15px;
+    font-family: 'Kalam', cursive;
+}
+p{
+   
+    font-family: 'Yantramanav', sans-serif;
+}
+
+
+
+#container
+{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h2
+{
+    font-size: 35px;
+    text-align: center;
+    margin: -12px;
+}
+
+#post
+{
+    background: white;
+    padding: 1em;
+}
+
+
+
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.center-container {
+    display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  text-align: center;
+}
+
+.styled-link {
+    color: rgb(96, 96, 146);
+    text-decoration: underline;
+    font-family: 'Kalam', cursive;
+}
+
+
+
+    
+    
